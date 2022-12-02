@@ -1,0 +1,55 @@
+plugins {
+    // Apply the java plugin to add support for Java
+    id 'java'
+    id 'jacoco'
+
+    // Apply the application plugin to add support for building a CLI application in Java.
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.8'
+}
+
+sourceSets {
+    build {
+        java.srcDir file('app/src/main/java')
+
+    }
+}
+
+repositories {
+    // Use Maven Central for resolving dependencies.
+    mavenCentral()
+}
+
+javadoc {
+    source = sourceSets.main.allJava
+}
+
+dependencies {
+    // This dependency is used by the application.
+    implementation 'com.google.guava:guava:30.1.1-jre'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.8.1'
+}
+
+javafx {
+    version = "18.0.2"
+    modules = [ 'javafx.controls', 'javafx.fxml' ]
+}
+
+test {
+    useJUnitPlatform()
+    finalizedBy jacocoTestReport // report is always generated after tests run
+}
+
+
+
+jacocoTestReport {
+    reports {
+        html.enabled = true
+        csv.enabled = true
+    }
+}
+
+application {
+    // Define the main class for the application.
+    mainClass = 'assignment_2.App'
+}

@@ -1,0 +1,16 @@
+Mineral water,0001,0
+Sprite,0002,0
+Coca cola,0003,0
+Pepsi,0004,0
+Juice,0005,0
+Mars,0006,0
+M&m,0007,0
+Bounty,0008,0
+Snickers,0009,0
+Smiths,0010,0
+Pringles,0011,0
+Kettle,0012,0
+Thins,0013,0
+Mentos,0014,0
+Sour patch,0015,0
+Skittles,0016,0

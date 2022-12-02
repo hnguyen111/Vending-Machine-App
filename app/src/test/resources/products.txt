@@ -1,0 +1,16 @@
+drinks,mineral water,0001,2.5
+drinks,sprite,0002,1.8
+drinks,coca cola,0003,1.8
+drinks,pepsi,0004,1.7
+drinks,juice,0005,3.0
+chocolates,mars,0006,2.0
+chocolates,m&m,0007,4.5
+chocolates,bounty,0008,2.0
+chocolates,snickers,0009,2.0
+chips,smiths,0010,4.3
+chips,pringles,0011,5.0
+chips,kettle,0012,3.85
+chips,thins,0013,3.85
+candies,mentos,0014,1.5
+candies,sour patch,0015,4.0
+candies,skittles,0016,1.55
