@@ -15,7 +15,7 @@ The reports can be found locally in "app/src/main/resources/reports":
 ## Usage
 The app can be downloaded by cloning the project.
 ```
-git clone https://github.sydney.edu.au/SOT2412-COMP9412-2022S2/CC_17_Fri_10_Ken_Group-04.git
+git clone https://github.com/hnguyen111/Vending-Machine-App.git
 ```
 This app has to be run on Java SE 17+ with Gradle.
 
@@ -37,7 +37,7 @@ To run all the test cases, run:
 gradle test
 ```
 JaCoCo report can be accessed locally from:
-CC_17_Fri_10_Ken_Group-04/app/build/reports/jacoco/test/html/index.html
+app/build/reports/jacoco/test/html/index.html
 
 To generate the Javadoc, run:
 
